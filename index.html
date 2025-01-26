@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style1.css">
+    <title>Abhilipsa Mallick || Portfolio</title>
+    <meta name="description" content="Abhilipsa Mallick Frontend Software Engineer at Infosys India">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8F1JE1GGG4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-8F1JE1GGG4');
+</script>
+</head>
+<body>
+  <header>
+    <div class="main-header">
+      <div class="logo">
+        <a href="index.html">
+          <div>Abhilipsa Mallick</div>
+        </a>
+      </div>
+      <nav class="desktop-main-menu">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="btn" href="./img/AbhilipsaResume.pdf" target="_blank">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+    <nav class="mobile-main-menu">
+      <ul class="mobile-main-menu--items">
+        <li class="mobile-menu-item"><a href="#">About</a></li>
+        <li class="mobile-menu-item"><a href="#">Contact</a></li>
+        <li class="mobile-menu-item"><a class="btn" href="./img/AbhilipsaResume.pdf" target="_blank">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- hamburger menu -->
+  <button id="menu-btn" class="hamburger" type="button">
+    <span class="hamburger-top"></span>
+    <span class="hamburger-middle"></span>
+    <span class="hamburger-bottom"></span>
+  </button>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/abhilipsa-mallick-7009924114abm?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin social"></i></a>
+        <a href="https://github.com/abhilipsa1009" target="_blank"><i class="fab fa-github social"></i></a>
+        <button id="theme-toggler" class="theme-button" href="#"><i id="theme-icon" class="fas fa-moon"></i></button>
+    </div>
+    <div class="main-section" id="info-section">
+      <div class="section-container flex-container">
+        <div class="about">
+          <h1 class="big-heading">Hi! I'm Abhilipsa.</h1>
+          <p class="para-light bigger">I am developer based in India. Currently working as a Frontend Software Engineer at Infosys. When not working, I thoroughly enjoy working on personal projects to discover and learn new technologies</p>
+        </div>
+        <div class="img-container">
+          <img class="about-img" src="./img/profile-pic-light.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="main-section">
+      <div class="section-container flex-container">
+        <div class="career-container">
+          <h1 class="heading-3">My Career So Far</h1>
+          <p class="para-light">I have accumulated significant experience as a System Engineer at Infosys, where I have honed my skills in building and managing websites and applications. My role involves translating UI/UX wireframes into high-quality React JS components, utilizing Redux Toolkit for state management, and ensuring optimal code development through rigorous code reviews. I have also developed scalable web pages using SAP UI5 components, integrating frontend APIs with backend systems, and maintaining automated tests with Jest and Cypress. My tenure at Infosys has allowed me to collaborate effectively with cross-functional teams, participate in sprint planning sessions, and contribute to improving team practices. This journey has equipped me with a robust skill set in frontend development, agile methodologies, and a deep understanding of user-friendly interface design. My career reflects a blend of technical expertise, teamwork, and a commitment to delivering high-quality web applications.</p>
+        </div>
+        <div class="skills-container">
+            <div class="skill-name-text">JavaScript</div>
+            <div class="skill-name-text">ReactJs</div>
+            <div class="skill-name-text">ReactNative</div>
+            <div class="skill-name-text">Nodejs</div>
+            <div class="skill-name-text">Redux</div>
+            <div class="skill-name-text">HTML5/CSS3</div>
+            <div class="skill-name-text">Java</div>
+            <div class="skill-name-text">GIT</div>
+            <div class="skill-name-text">Postgres</div>
+            <div class="skill-name-text">SAP UI5</div>
+            <div class="skill-name-text">SAP S4 Hana</div>
+            <div class="skill-name-text">Microservices</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="main-section ">
+      <div class="section-container borderClass">
+        <div class="flex-container form-wrapper">
+          <div class="contact-header-container">
+            <h1 class="heading-3">Want to get in touch?</h1>
+          </div>
+          <div class="contacts-container">
+            <form id="form" class="form-container" action="https://formbold.com/s/3KAMj" method="POST">
+              <div class="text-feilds">
+                <div class="input-feild">
+                  <label for="name">Name</label>
+                  <input class="text-feild" type="text" name="name" id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="input-feild">
+                  <label for="email">Email</label>
+                  <input class="text-feild" type="email" name="email" id="email" placeholder="Enter Your Email">
+                </div>
+              </div>
+              <div class="text-area input-feild">
+                <label for="message">Message</label>
+                <textarea class="text-feild text-area" name="message" id="message" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-contact">Submit</button>
+            </form>
+        </div>
+       
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="main-section">
+        <div class="section-container flex-container">
+          Copyright © 2025 Abhilipsa Mallick. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+    
+    <script src="./index.js"></script>
+</body>
+</html>
